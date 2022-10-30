@@ -10,3 +10,9 @@ dotenv = "0.15.0"
 sqlx = { version = "0.6.2", features = ["runtime-tokio-rustls", "postgres"] }
 tokio = "1.21.2"
 migration = { path = "../migration" }
+common-utils = { path = "../common-utils" }
+anyhow = "1.0.66"
+tower = "0.4.13"
+tower-http = { version = "0.3.4", features = ["trace", "cors"] }
+metrics = "0.20.1"
+axum = "0.5.17"

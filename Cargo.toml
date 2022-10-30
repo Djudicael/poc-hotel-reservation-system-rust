@@ -6,4 +6,5 @@ members = [
     "reservation-service-app",
     "payment-service-app",
     "migration",
+    "common-utils",
 ]
