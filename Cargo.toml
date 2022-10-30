@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "hotel-service-app",
+    "rate-service-app",
+    "reservation-service-app",
+    "payment-service-app",
+    "migration",
+]
